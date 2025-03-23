@@ -1,0 +1,134 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("newGradient.jpg");
+    /*background-color: rgb(72, 94, 113);*/
+    color: rgb(253, 251, 244);
+    width: 100%;
+    padding: 0;
+    margin-top: 175px;
+    flex-direction: column; /* Stack the children vertically */
+    gap: 10px; /* Add space between elements */
+
+
+}
+
+button{
+
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    margin-left:auto;
+    margin-right:auto;
+    
+    padding: 10px;
+    border-radius: 30px;
+    border: 5px solid rgb(123, 152, 177);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color: rgb(255, 252, 237);
+
+    background-color: rgb(146, 134, 148);
+    backdrop-filter: blur(30px);
+    border: 2px solid rgb(255, 255, 255, 0.37);
+    box-shadow: 0px 0px 30px rgb(227, 228, 237, 0.37);
+}
+
+button:hover{
+    color:rgb(42, 55, 66) ; ;
+    background-color: rgb(255, 252, 237);
+}
+
+
+
+input[type="text"]{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    margin-left:auto;
+    margin-right:auto;
+
+    padding: 10px;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(27, 27, 27);
+    
+    
+    background-color: rgb(255, 255, 255);
+    border: 1 solid rgb(255, 255, 255);
+}
+
+h3{
+    display:flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 0;
+    
+}
+
+
+
+h2{
+    display:flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 0;
+    width: 100%;
+    /*font-size:20px*/
+    
+}
+.tenor-gif-embed{
+    display: flex; /* Use flexbox on the element */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    width: 100%; /* Make it take the full width of the container */
+    margin-left:auto;
+    margin-right:auto;
+    padding: 0;
+}
+
+
+
+p{
+    display:flex;
+    justify-content: center;
+    font-family: Arial;
+    font-weight: light;
+    font-style:italic;
+    font-size: 10px;
+    color: rgb(214, 210, 192);
+}
+
+.generator{
+    display:flex;
+    justify-content: center;
+    flex-direction: column; /* Stack the children vertically */
+    gap: 10px; /* Add space between elements */
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    
+    backdrop-filter: blur(30px);
+    border: 2px solid rgb(255, 255, 255, 0.37);
+    box-shadow: 0px 0px 30px rgb(227, 228, 237, 0.37);
+    
+    border-radius: 30px;
+}
+
+.greetingMessage {
+    display:flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 0;
+    width: 100%;
+    /*font-size:20px*/
+}
